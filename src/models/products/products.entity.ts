@@ -2,15 +2,15 @@
 export interface IProduct {
     id: Number
     name: String
-    price: Number
+    price: String
     colors: String
     sizes: String
     photos: File
-    orders: Number
+    orders: String
 }
 
 export type TQProduct = {
-    id: Number
+    id?: Number
     name?: String
     order?: Object
 }
